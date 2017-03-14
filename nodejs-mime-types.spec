@@ -7,8 +7,8 @@
 %{!?scl:%global enable_tests 0}
 
 Name:		%{?scl_prefix}nodejs-mime-types
-Version:    2.1.10
-Release:    1%{?dist}
+Version:        2.1.13
+Release:        1%{?dist}
 Summary:	The ultimate javascript content-type utility.
 Url:		https://github.com/jshttp/mime-types
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -54,7 +54,10 @@ mocha --reporter spec test/test.js
 %license LICENSE
 
 %changelog
-* Wed Sep 07 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.1.10-1
+* Thu Jan 05 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.1.13-1
+- Updated with script
+
+* Tue Sep 13 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.1.10-1
 - Updated with script
 
 * Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.1.3-2
